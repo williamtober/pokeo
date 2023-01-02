@@ -16,8 +16,18 @@ The colors in the frames show where the user can click to increase teh count of 
 ## todo 
 here are various things I need to remember to do when I come back to this project
 - [X] import set data from [PokemonTCG Project Repo](https://github.com/PokemonTCG/pokemon-tcg-data/blob/master/sets/en.json)
-- [ ] using the set data, get card data depending on the set... Perhaps this involves some FS work [Set Data Files](https://github.com/PokemonTCG/pokemon-tcg-data/tree/master/cards/en)
+- [X] using the set data, get card data depending on the set... Perhaps this involves some FS work [Set Data Files](https://github.com/PokemonTCG/pokemon-tcg-data/tree/master/cards/en)
+- [X] create type/interface so that redux knows what type of datatype to expect from the json files
 - [ ] give each individual card a style
 - [ ] create a library redux store it needs to account for decks, cards, needs, and selling.
 - [ ] considering renaming the cards redux store to something like pokemon because it's not really specific.
 - [ ] write tests and make sure that the cards set selector, button menu collapse, and card add/minus features work via keyboard accessibilities.
+
+
+## Credits
+
+### [Pokemon TCG Developers](https://github.com/PokemonTCG)
+They did a lot of work on their API and published a lot of the interfaces, queries, and other logic that otherwise would have taken several hours to create. 
+
+### [TailwindCSS](https://tailwindcss.com/)
+CSS Framework for quickly building out applications. I work a lot, so CSS frameworks for most things is a no brainer. Also they allow us to override existing classnames, so you can really go back and change all the styles to something custom. 
