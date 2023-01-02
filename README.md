@@ -16,7 +16,8 @@ The colors in the frames show where the user can click to increase teh count of 
 ## todo 
 here are various things I need to remember to do when I come back to this project
 - [X] import set data from [PokemonTCG Project Repo](https://github.com/PokemonTCG/pokemon-tcg-data/blob/master/sets/en.json)
-- [ ] using the set data, get card data depending on the set... Perhaps this involves some FS work [Set Data Files](https://github.com/PokemonTCG/pokemon-tcg-data/tree/master/cards/en)
+- [X] using the set data, get card data depending on the set... Perhaps this involves some FS work [Set Data Files](https://github.com/PokemonTCG/pokemon-tcg-data/tree/master/cards/en)
+- [ ] create type/interface so that redux knows what type of datatype to expect from the json files
 - [ ] give each individual card a style
 - [ ] create a library redux store it needs to account for decks, cards, needs, and selling.
 - [ ] considering renaming the cards redux store to something like pokemon because it's not really specific.
