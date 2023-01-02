@@ -15,7 +15,7 @@ const ViewSet = () => {
     }
 
     return( 
-        <div className='w-full grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-4 gap-x-3 gap-y-12 h-screen overflow-scroll pt-44'>
+        <div id='cardView' className='w-full grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-4 gap-x-3 gap-y-12 h-screen overflow-scroll pt-44'>
             {cards.map((card: any) => {
                 return (
                     <div key={card.id} className='w-11/12 mx-auto h-auto flex flex-col items-center cursor-pointer relative'>
