@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pokeo/static/css/main.a5d63a19.css",
-    "main.js": "/pokeo/static/js/main.043bab65.js",
-    "static/js/787.19b3ef36.chunk.js": "/pokeo/static/js/787.19b3ef36.chunk.js",
-    "index.html": "/pokeo/index.html",
-    "main.a5d63a19.css.map": "/pokeo/static/css/main.a5d63a19.css.map",
-    "main.043bab65.js.map": "/pokeo/static/js/main.043bab65.js.map",
-    "787.19b3ef36.chunk.js.map": "/pokeo/static/js/787.19b3ef36.chunk.js.map"
+    "main.css": "/www.pokeoapp.com/static/css/main.a5d63a19.css",
+    "main.js": "/www.pokeoapp.com/static/js/main.04f4c148.js",
+    "static/js/787.19b3ef36.chunk.js": "/www.pokeoapp.com/static/js/787.19b3ef36.chunk.js",
+    "index.html": "/www.pokeoapp.com/index.html",
+    "main.a5d63a19.css.map": "/www.pokeoapp.com/static/css/main.a5d63a19.css.map",
+    "main.04f4c148.js.map": "/www.pokeoapp.com/static/js/main.04f4c148.js.map",
+    "787.19b3ef36.chunk.js.map": "/www.pokeoapp.com/static/js/787.19b3ef36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5d63a19.css",
-    "static/js/main.043bab65.js"
+    "static/js/main.04f4c148.js"
   ]
 }
