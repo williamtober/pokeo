@@ -36,6 +36,7 @@ const ViewSet = () => {
 
     return( 
         <div id='cardView' className='w-full grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-4 gap-x-3 gap-y-12 h-screen overflow-scroll pt-44 relative'>
+            {/* reference to top */}
             <p ref={topRef} className='w-full h-44 absolute invisible top-0'></p>
             {cards.map((card: any) => {
                 return (
