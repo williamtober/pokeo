@@ -17,7 +17,7 @@ root.render(
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<ViewSet />} />
+          <Route path="*" element={<ViewSet />} />
         </Routes>
       </Router>
     </Provider>

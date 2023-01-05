@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { json } from 'stream/consumers';
 import { ICard } from '../../interfaces/card';
 import { ISet } from '../../interfaces/set';
 
@@ -31,9 +32,12 @@ interface LibraryState {
     error: string | null,
 }
 
+const temp = localStorage.getItem('library');
+const persistedState = temp ? JSON.parse(temp) : {};
+
 const initialState = {
-    sets: {},
-    cards: {},
+    sets: persistedState.sets || {},
+    cards: persistedState.cards || {},
     status: 'idle',
     error: null,
 } as LibraryState;
@@ -94,6 +98,9 @@ const librarySlice = createSlice({
                     }
                 }
             }
+
+            // save the state to local storage
+            localStorage.setItem('library', JSON.stringify(state));
 
             console.log(state.cards, state.sets)
 
